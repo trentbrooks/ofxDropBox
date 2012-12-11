@@ -31,8 +31,8 @@
                 </array>
             </dict>
         </array>
-    7. If testing with the ofxDropBoxExample project. Remember to copy 'test.jpg' to your DropBox/Apps/YourApp folder otherwise the download won't work.
-    6. That should be it. See the example testApp to see how to connect, upload, and download using ofxDropBox.
+    6. If testing with the ofxDropBoxExample project. Remember to copy 'test.jpg' to your DropBox/Apps/YourApp folder otherwise the download won't work.
+    7. That should be it. See the example testApp to see how to connect, upload, and download using ofxDropBox.
  */
 
 

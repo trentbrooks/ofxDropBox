@@ -17,11 +17,12 @@ Original dropbox ios tutorial: https://www.dropbox.com/developers/start/setup#io
     - ref: https://www.dropbox.com/developers/start/authentication#ios
 5. Edit the ofxiphone-info.plist in your OF xcode project (right click open as source code)
     - make sure the UIApplicationExitsOnSuspend is set to false 
-    - Add the 'PLIST CODE' code below at the top after the first <dict> tag and replace 'db-APP_KEY' with your app key eg. 'db-n0vfoe7o3a5bmtz'.
-7. If testing with the ofxDropBoxExample project. Remember to copy 'test.jpg' to your DropBox/Apps/YourApp folder otherwise the download won't work.
-6. That should be it. See the example testApp to see how to connect, upload, and download using ofxDropBox.
+    - Add the 'plist code' below at the top after the first <dict> tag and replace 'db-APP_KEY' with your app key eg. 'db-n0vfoe7o3a5bmtz'.
+6. If testing with the ofxDropBoxExample project. Remember to copy 'test.jpg' to your DropBox/Apps/YourApp folder otherwise the download won't work.
+7. That should be it. See the example testApp to see how to connect, upload, and download using ofxDropBox.
 
-	// PLIST CODE
+## plist code ##
+	// ofxiphone-info.plist
 	<key>CFBundleURLTypes</key>
 	<array>
 	<dict>
