@@ -19,6 +19,17 @@ Original dropbox ios tutorial: https://www.dropbox.com/developers/start/setup#io
     - make sure the UIApplicationExitsOnSuspend is set to false 
     - Add the following code at the top after the first <dict> tag and replace 'db-APP_KEY' with your app key eg. 'db-n0vfoe7o3a5bmtz'.
 
+    // ofxiphone-info.plist
+	<key>CFBundleURLTypes</key>
+	<array>
+	<dict>
+		<key>CFBundleURLSchemes</key>
+		<array>
+			<string>db-APP_KEY</string>
+		</array>
+	</dict>
+	</array>
+
 7. If testing with the ofxDropBoxExample project. Remember to copy 'test.jpg' to your DropBox/Apps/YourApp folder otherwise the download won't work.
 6. That should be it. See the example testApp to see how to connect, upload, and download using ofxDropBox.
 
@@ -37,17 +48,6 @@ Original dropbox ios tutorial: https://www.dropbox.com/developers/start/setup#io
 	// upload from phone data folder to dropbox
 	dropBox->uploadFile("Default.png"); 
     dropBox->uploadFile("sample.csv");
-
-        // ofxiphone-info.plist
-	<key>CFBundleURLTypes</key>
-	<array>
-	<dict>
-	<key>CFBundleURLSchemes</key>
-	<array>
-	<string>db-APP_KEY</string>
-	</array>
-	</dict>
-	</array>
 
 See example project for usage.
 
