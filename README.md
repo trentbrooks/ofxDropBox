@@ -19,6 +19,7 @@ Original dropbox ios tutorial: https://www.dropbox.com/developers/start/setup#io
     - make sure the UIApplicationExitsOnSuspend is set to false 
     - Add the following code at the top after the first <dict> tag and replace 'db-APP_KEY' with your app key eg. 'db-n0vfoe7o3a5bmtz'.
 
+// code...
     // ofxiphone-info.plist
 	<key>CFBundleURLTypes</key>
 	<array>
