@@ -1,6 +1,6 @@
 ![https://github.com/trentbrooks/ofxDropBox/raw/master/screenshot.jpg](https://github.com/trentbrooks/ofxDropBox/raw/master/screenshot.jpg)
 ## ofxDropBox ##
-Openframeworks/ios addon (tested with OF 0073, Xcode 4.3.1, ios 5.1) for the DropBox sdk- https://www.dropbox.com/developers/reference/sdk.
+Openframeworks/ios addon (tested with OF 0073, Xcode 4.3.1/4.4, ios 5.1/6) for the DropBox sdk- https://www.dropbox.com/developers/reference/sdk.
 
 Example shows how to upload and download files. All uploads and downloads are queued, so you can add multiple at once. 
 
